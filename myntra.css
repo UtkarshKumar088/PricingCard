@@ -9,12 +9,125 @@
 body{
     font-family: 'montserrat',sans-serif;
     font-weight: 600;
-    line-height: 1.6;
+    line-height: 1.8;
     background-color:#12123e;
+  
 }
 
 .container{
+    background-color: aliceblue;
+    width: 1100px;
+    border-radius: 10px;
+    padding :50px 30px;
+    margin:0 auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+
     
 }
 
+.card{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 10px;
+    gap:10px;
+    flex-wrap: wrap;
+}
 
+ul{
+   list-style-type: none;
+    
+}
+
+.box{
+flex:1;
+background-color:white;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 1px 4px 6px rgba(0,0,0,0.1);
+margin:10px;
+text-align: center;
+
+}
+
+h3{
+    font-size: 20px;
+    padding:15px;
+    margin-bottom: 10px;
+    background: #f6f6f7;
+
+}
+a{
+    text-decoration: none;
+}
+
+
+.box2 h3{
+    background: linear-gradient(
+        90deg,
+        rgba(194,227,255,1) 13%,
+        rgba(180,118,254,1) 100%
+    );
+    color:#fff;
+}
+
+.box3 h3{
+    background: linear-gradient(
+        90deg,
+        rgba(255,177,194,1) 13%,
+        rgba(255,203,114,1) 100%
+    );
+    color:#fff;
+}
+
+strong{
+    font-size: 40px;
+}
+
+.box sup{
+    position: relative;
+    left:-5px;
+    top:-12px;
+}
+
+
+.card .main-text{
+margin-bottom: 30px;
+}
+
+.box .price-info{
+    font-weight: 700;
+}
+.btn {
+    border: solid black 1px;
+    padding: 10px 30px;
+    color:black;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; 
+    display: inline-block;
+    font-size:16px;
+}
+
+.btn2,.btn:hover{
+background: #12123e;
+color:#fff;
+}
+
+.btn2:hover{
+    background: #fff;
+    color:black;
+}
+
+.box ul{
+    text-align: left;
+    margin-top:30px;
+}
+
+.box ul li i{
+    color: #98ca9e;
+    margin-right: 10px;
+}
